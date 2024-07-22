@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: plum;
+    font-family: 'Bree Serif', serif;
+    transition: transform 3s ease-in;
+}
+.sidebar nav{
+   padding: 42px;
+   font-size: 20px;
+   list-style: none;
+
+
+}
+.sidebar nav li{
+    font-size: 20px;
+    padding: 33px 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar nav li a{
+    text-decoration: none;
+}
+.sidebar nav li a:hover{
+    color:blueviolet;
+    background-color: aqua;
+}
+.main{
+    
+    width: 90vw;
+}
+.container{
+    display: flex;
+    width: 100vw;
+}
+.infoContainer{
+    
+    height: 20vw;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+}
+.hello{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.name{
+    font-size: 25px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    flex-direction: column;
+}
+.about{
+     font-size: 2.5em;
+     padding-top: 10px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    border-radius: 22px ;
+    background-color: dodgerblue;
+    color: rgb(14, 165, 104);
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+.btn:hover{
+    color: white;
+    background-color: dodgerblue;
+}
+.devPic img{
+   width: 225px;
+
+}
+.contactform{
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+.contactform h1{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+.contactform form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div{
+    width: 20vw;
+    margin: 6px 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contactform form div input{
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 8px;
+    padding:20px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check-input{
+ width: 24px;
+ margin:3px 0;
+top: 40px;
+
+}
+.smlbtn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90px;
+    background-color: dodgerblue;
+    color: white;
+}
+#phone{
+    margin-top: 10px;
+}
+.form-check-label{
+
+}
+.blogItem{
+ margin: 20px;
+ 
+ font-family: 'Bree Serif', serif;
+}
+.blogContainer h1{
+    font-family:  'Bree Serif', serif;
+    margin: 23px;
+
+     
+}
+.blogItem p{
+    font-family:  'Bree Serif', serif;
+
+}
+.intro{
+   
+}
+.intro h1{
+    margin: 10px;
+    font-family:  'Bree Serif', serif;
+    font-weight: 900;
+}
+.intro p{
+    margin: 10px;
+    font-family:  'Bree Serif', serif;
+}
+.intro h2{
+    font-family:  'Bree Serif', serif;
+    margin: 0 12px;
+    font-weight: 900;
+}
+.skill{
+    width: 200px;
+    height: 15px;
+    background-color: red;
+
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-family: 'source code Pro', monospace;
+    
+    
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+
+}
+.fifty{
+    width: 125px;
+    background-color: brown;
+}
+.t5{
+    width: 25px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 95px;
+}
+@media only screen and (max-width: 600px) {
+    /* body {
+      
+    }
+    
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+    .devPic{
+        display: none;
+    }
+    .intro .blogContainer .contactform{
+        margin: 50px 8px;
+    }
+  }
